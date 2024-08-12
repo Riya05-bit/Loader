@@ -1,0 +1,20 @@
+#loader{
+    position: relative;
+    top:15vw;
+    width:20vw;
+    height:20vw;
+    border: 20px solid ;
+    /* box-shadow:5px 5px 5px teal; */
+    border-radius:20vw;
+    border-top:15px solid rgb(255, 255, 255);
+    margin: auto;
+    animation:loading 1s linear infinite;
+}
+@keyframes loading {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
